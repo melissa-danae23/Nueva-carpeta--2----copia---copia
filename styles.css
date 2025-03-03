@@ -1,0 +1,291 @@
+body{
+    margin: 200px;
+}
+
+body{
+    background-color: rgb(188, 114, 236);
+}
+ul {
+    list-style-type: none; /*eliminar las viñetas */
+display: flex; /*Alinea los elementos en una sola linea*/
+justify-content: center; /*Centrar los elementos horizontalmente*/
+padding: 0; /*Eliminar el padding por defecto*/
+margin: 0; /*Elimina el margin por defecto*/
+gap: 5px; /*Agrega una separacion de 5 pixeles entre los elementos*/
+
+}
+    
+    .centrado{
+        display: block;
+        margin:0 auto;
+    }
+
+
+h4 {
+    text-align: center;
+}
+
+body{
+background-color: rgb(188, 114, 236);
+}
+ul {
+list-style-type: none; /*eliminar las viñetas */
+display: flex; /*Alinea los elementos en una sola linea*/
+justify-content: center; /*Centrar los elementos horizontalmente*/
+padding: 0; /*Eliminar el padding por defecto*/
+margin: 0; /*Elimina el margin por defecto*/
+gap: 5px; /*Agrega una separacion de 5 pixeles entre los elementos*/
+
+}
+h4 {
+    text-align: center;
+}
+
+body{
+background-color: rgb(223, 133, 241);
+}
+ul {
+list-style-type: none; /*eliminar las viñetas */
+display: flex; /*Alinea los elementos en una sola linea*/
+justify-content: center; /*Centrar los elementos horizontalmente*/
+padding: 0; /*Eliminar el padding por defecto*/
+margin: 0; /*Elimina el margin por defecto*/
+gap: 5px; /*Agrega una separacion de 5 pixeles entre los elementos*/
+
+
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.video-background { /*pegar video*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    }
+.content {
+    position:relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+h1 {
+    font-size: 48ox;
+}   
+p{
+    font-size: 24px;
+}
+ 
+
+
+
+.tamaño_imagen{
+    width: 200px;
+    height: 300px;
+}
+.tamaño_imagen2{
+    width: 500px;
+    height: 300px;
+}
+.tamaño_imagen3{
+    width: 300px;
+    height: 300px;
+}
+body{
+    font-family: arial, sans-serif;
+    margin-right: 0;
+    padding: 0;
+    background-color: #a362bd;
+}
+nav{
+    background-color: #ae96bd;
+    overflow: hidden;
+}
+nav a { /*navegador*/
+float: left;
+display: block;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+font-size: 17px;
+}
+nav a:hover{
+    background-color: #f3cdcd;
+    color: rgb(114, 62, 163);
+}
+nav a + a{
+    margin-left: 20px;
+    }
+#miparrafo{ /*poner tipo de letra a un parrafo*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#f3ecf5
+}
+#titul0{ /*poner tipo de letra a un titulo*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color:#eccbac
+}
+header {  
+    background-color: rgb(223, 147, 247);
+    }
+        h1 {
+            text-align: center;
+            position:relative;
+            bottom: 80;
+        }
+        body{
+            margin: 50px;
+        }
+       
+        
+    body html{
+        margin: 0;
+        padding: 0;
+        height: 100;
+        font-family: Arial, sans-serif;
+
+    }
+    .imagen-container{
+        background: url('lavanda.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        height: 154vh;
+        position: relative;
+    }
+    .content{
+        position: relative;
+        z-index: 1;
+        color: rgb(253, 232, 222);
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.432);
+        
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24;
+    }
+    .imgg{
+        background: url('plantas.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        height: 248vh;
+        position: relative;
+    }
+    .content{
+        position: relative;
+        z-index: 1;
+        color: rgb(253, 232, 222);
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.432);
+        
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24;
+    }
+    .imgg2{
+        background: url('lavandass.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        height: 301vh;
+        position: relative;
+    }
+    .content{
+        position: relative;
+        z-index: 1;
+        color: rgb(253, 232, 222);
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.432);
+        
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24;
+    }
+    .imgg3{
+        background: url('marmol\ morado.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        height: 500vh;
+        position: relative;
+    }
+    .content{
+        position: relative;
+        z-index: 1;
+        color: rgb(253, 232, 222);
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.432);
+        
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24;
+    }
+    .imgg4{
+        background: url('hondas.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        height: 1000vh;
+        position: relative;
+    }
+    .content{
+        position: relative;
+        z-index: 1;
+        color: rgb(253, 232, 222);
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.432);
+        
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24;
+    }
+    
+    #pag{ /*poner tipo de letra a un titulo*/
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color:#d58cf7
+    }
+    .logoo{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color:#fbfbfc
+    }
+    
+    .conte{
+        display: flex;
+        align-items: center;
+    }
+    .imagen{
+        margin-right: 200px;
+        width: 150px;
+    }
+    .texto{
+        max-width: 200px;
+    }
