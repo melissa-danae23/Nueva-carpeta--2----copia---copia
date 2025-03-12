@@ -1,9 +1,9 @@
 body{ 
-    margin: 200px;
+    margin: 200px;  /* Agrega un margen de 200 píxeles alrededor del cuerpo de la página */
 }
 
 body{
-    background-color: rgb(188, 114, 236);
+    background-color: rgb(188, 114, 236); ; /* Establece el color de fondo del cuerpo a un tono lila */
 }
 ul {
     list-style-type: none; /*eliminar las viñetas */
@@ -16,17 +16,17 @@ gap: 5px; /*Agrega una separacion de 5 pixeles entre los elementos*/
 }
     
     .centrado{
-        display: block;
-        margin:0 auto;
+        display: block; /* Hace que el elemento se comporte como un bloque */
+        margin:0 auto; ; /* Centra el elemento horizontalmente */
     }
 
 
 h4 {
-    text-align: center;
+    text-align: center; /* Centra el texto del elemento h4 */
 }
 
 body{
-background-color: rgb(188, 114, 236);
+background-color: rgb(188, 114, 236);  /* Se repite la misma propiedad de color de fondo, es redundante */
 }
 ul {
 list-style-type: none; /*eliminar las viñetas */
@@ -38,11 +38,11 @@ gap: 5px; /*Agrega una separacion de 5 pixeles entre los elementos*/
 
 }
 h4 {
-    text-align: center;
+    text-align: center; /* Centra el texto de los elementos <h4> */
 }
 
 body{
-background-color: rgb(223, 133, 241);
+background-color: rgb(223, 133, 241); /* Establece el color de fondo del cuerpo de la página a un tono lila */
 }
 ul {
 list-style-type: none; /*eliminar las viñetas */
@@ -55,239 +55,245 @@ gap: 5px; /*Agrega una separacion de 5 pixeles entre los elementos*/
 
 }
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
+    margin: 0;  /* Elimina el margen externo del body y html */
+    padding: 0; /* Elimina el relleno interno del body y html */
+    height: 100%; /* Establece el alto al 100% de la ventana del navegador */
+    font-family: Arial, sans-serif;  /* Define la fuente de texto predeterminada */
 }
 
 .video-background { /*pegar video*/
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
+    position:absolute; /* Posiciona el video de manera absoluta en relación con el body */
+    top: 50%;  /* Lo posiciona en el centro vertical de la pantalla */
+    left: 50%; ; /* Lo posiciona en el centro horizontal de la pantalla */
+    transform: translate(-50%, -50%); /* Ajusta el video para que esté perfectamente centrado */
+    min-width: 100%; ; /* Asegura que el ancho mínimo sea del 100% de la pantalla */
+    min-height: 100%;  /* Asegura que el alto mínimo sea del 100% de la pantalla */
+    width: auto;  /* Mantiene el ancho en automático para evitar deformaciones */
+    height: auto; /* Mantiene la altura en automático para evitar deformaciones */
+    z-index: -1; /* Envía el video al fondo, detrás de otros elementos */
     }
+    /* Configuración del contenido superpuesto sobre el video */
 .content {
-    position:relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    position:relative;  /* Permite que el contenido se posicione sobre el video */
+    z-index: 1; /* Asegura que el contenido esté delante del video */
+    color: white; /* Establece el color del texto en blanco */
+    text-align: center;  /* Centra el texto */
+    padding: 20px;  /* Agrega un espacio interno de 20px alrededor del contenido */
 
 }
+/* Configuración de los encabezados h1 */
 h1 {
-    font-size: 48ox;
-}   
+    font-size: 48ox; /* Establece el tamaño del texto a 48 píxeles */
+}
+/* Configuración de los párrafos */
 p{
-    font-size: 24px;
+    font-size: 24px; ; /* Establece el tamaño de la fuente del párrafo a 24 píxeles */
 }
  
 
 
 
 .tamaño_imagen{
-    width: 200px;
-    height: 300px;
+    width: 200px;  /* Establece el ancho de la imagen en 200 píxeles */
+    height: 300px; /* Establece la altura de la imagen en 300 píxeles */
 }
 .tamaño_imagen2{
-    width: 500px;
-    height: 300px;
+    width: 500px; /* Establece el ancho de la imagen en 500 píxeles */
+    height: 300px; /* Establece la altura de la imagen en 300 píxeles */
 }
 .tamaño_imagen3{
-    width: 300px;
-    height: 300px;
+    width: 300px;  /* Establece el ancho de la imagen en 300 píxeles */
+    height: 300px; /* Establece la altura de la imagen en 300 píxeles */
 }
 body{
-    font-family: arial, sans-serif;
-    margin-right: 0;
-    padding: 0;
-    background-color: #a362bd;
+    font-family: arial, sans-serif; /* Define la fuente de texto principal del cuerpo */
+    margin-right: 0;   /* Elimina el margen derecho del cuerpo */
+    padding: 0;   /* Elimina el relleno (padding) del cuerpo */
+    background-color: #a362bd;  /* Cambia el color de fondo del cuerpo */
 }
 nav{
-    background-color: #ae96bd;
-    overflow: hidden;
+    background-color: #ae96bd; /* Establece el color de fondo de la barra de navegación */
+    overflow: hidden; /* Evita que los elementos desborden el contenedor */
 }
 nav a { /*navegador*/
-float: left;
-display: block;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
-font-size: 17px;
+float: left; /* Hace que los enlaces de navegación se alineen a la izquierda */
+display: block; /* Convierte los enlaces en elementos de bloque */
+text-align: center; /* Centra el texto del enlace */
+padding: 14px 20px; /* Añade un espacio interno (arriba/abajo 14px, izquierda/derecha 20px) */
+text-decoration: none; ; /* Elimina el subrayado de los enlaces */
+font-size: 17px;  /* Establece el tamaño de la fuente del enlace */
 }
-nav a:hover{
-    background-color: #f3cdcd;
-    color: rgb(114, 62, 163);
+nav a:hover{  /* Estilo al pasar el mouse sobre el enlace */
+    background-color: #f3cdcd; /* Cambia el fondo del enlace a un tono rosado */
+    color: rgb(114, 62, 163); /* Cambia el color del texto a morado */
 }
-nav a + a{
-    margin-left: 20px;
+nav a + a{ /* Aplica estilo al segundo enlace en adelante */
+    margin-left: 20px; /* Añade un margen izquierdo de 20px entre los enlaces */
     }
 #miparrafo{ /*poner tipo de letra a un parrafo*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color:#f3ecf5
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Define la fuente del texto */
+    font-size: 20px; /* Establece el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea en negrita */
+    color:#f3ecf5; /* Establece el color del texto en un tono claro */
 }
 #titul0{ /*poner tipo de letra a un titulo*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    color:#eccbac
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  /* Define la fuente del texto */
+    font-size: 50px;  /* Establece un tamaño de fuente grande para el título */
+    font-weight: bold; /* Hace que el texto esté en negrita */
+    color:#eccbac; /* Establece el color del texto en un tono beige */
 }
-header {  
-    background-color: rgb(223, 147, 247);
+header {    /* Estilo general para el encabezado de la página */
+    background-color: rgb(223, 147, 247); /* Define el color de fondo en un tono lila */
     }
-        h1 {
-            text-align: center;
-            position:relative;
-            bottom: 80;
+        h1 { /* Estilo específico para los títulos de nivel 1 dentro del encabezado */
+            text-align: center;  /* Centra el texto */
+            position:relative;  /* Establece la posición relativa, lo que permite mover el elemento */
+            bottom: 80; /* Desplaza el encabezado hacia arriba 80px */
         }
-        body{
+        body{ /* Estilo general para el cuerpo de la página */
             margin: 50px;
         }
        
         
     body html{
-        margin: 0;
-        padding: 0;
-        height: 100;
-        font-family: Arial, sans-serif;
+        margin: 0; /* Elimina el margen externo del cuerpo */
+        padding: 0; /* Elimina el relleno interno del cuerpo */
+        height: 100; /* Hace que el cuerpo ocupe el 100% del alto de la pantalla */
+        font-family: Arial, sans-serif; /* Establece la fuente del texto */
 
     }
-    .imagen-container{
-        background: url('lavanda.jpeg') no-repeat center center fixed;
-        background-size: cover;
-        height: 154vh;
-        position: relative;
+    .imagen-container{ /* Estilo para el contenedor que tiene la imagen de fondo */
+        background: url('lavanda.jpeg') no-repeat center center fixed;  /* Agrega una imagen de fondo centrada y fija al hacer scroll */
+        background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+        height: 154vh; /* Hace que el contenedor tenga una altura del 154% del alto de la pantalla */
+        position: relative;  /* Establece la posición relativa para que los elementos hijos sean relativos a este */
     }
-    .content{
-        position: relative;
-        z-index: 1;
-        color: rgb(253, 232, 222);
-        text-align: center;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.432);
+    .content{ /* Estilo para el contenido sobre la imagen */
+        position: relative; ; /* Hace que el contenido sea relativo a su contenedor padre */
+        z-index: 1; /* Hace que el contenido esté por encima de la imagen de fondo */
+        color: rgb(253, 232, 222); /* Cambia el color del texto a un tono claro */
+        text-align: center; /* Centra el texto */
+        padding: 20px; /* Agrega espacio interno alrededor del texto */
+        background-color: rgba(0, 0, 0, 0.432); /* Agrega un fondo semi-transparente para resaltar el texto */
         
     }
-    h1{
-        font-size: 48px;
+    h1{ /* Estilo general para los encabezados h1 */
+        font-size: 48px; /* Establece el tamaño de la fuente a 48 píxeles */
     }
-    p{
-        font-size: 24;
+    p{ /* Estilo general para los párrafos */
+        font-size: 24; /* Establece el tamaño de la fuente a 24 píxeles */
     }
-    .imgg{
-        background: url('plantas.jpeg') no-repeat center center fixed;
-        background-size: cover;
-        height: 248vh;
-        position: relative;
+    .imgg{ /* Estilo para la primera sección con imagen de fondo */
+        background: url('plantas.jpeg') no-repeat center center fixed; /* Coloca una imagen de fondo llamada "plantas.jpeg" centrada y fija */
+        background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+        height: 248vh; /* Establece la altura del contenedor al 248% del alto de la pantalla */
+        position: relative; /* Define que el elemento será relativo para posicionar contenido */
     }
-    .content{
-        position: relative;
-        z-index: 1;
-        color: rgb(253, 232, 222);
-        text-align: center;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.432);
+    .content{ /* Estilo para el contenido sobre la imagen */
+        position: relative; /* Posiciona el contenido en relación a su contenedor */
+        z-index: 1; /* Hace que el contenido esté por encima de la imagen de fondo */
+        color: rgb(253, 232, 222); /* Establece el color del texto */
+        text-align: center;  /* Centra el texto */
+        padding: 20px;  /* Agrega espacio alrededor del texto */
+        background-color: rgba(0, 0, 0, 0.432); /* Agrega un fondo oscuro semi-transparente */
         
     }
-    h1{
-        font-size: 48px;
+    h1{ /* Estilo repetido para h1, probablemente para asegurar que el texto tenga este tamaño */
+        font-size: 48px; /* Tamaño de la fuente de 48 píxeles */
     }
-    p{
-        font-size: 24;
+    p{ /* Estilo repetido para los párrafos */
+        font-size: 24;  /* Tamaño de la fuente de 24 píxeles */
     }
-    .imgg2{
-        background: url('lavandass.jpeg') no-repeat center center fixed;
-        background-size: cover;
-        height: 301vh;
-        position: relative;
+    .imgg2{ /* Estilo para la segunda sección con otra imagen de fondo */
+        background: url('lavandass.jpeg') no-repeat center center fixed; /* Coloca otra imagen de fondo llamada "lavandass.jpeg" */
+        background-size: cover;  /* Hace que la imagen cubra todo el contenedor */
+        height: 301vh;  /* Establece la altura del contenedor al 301% del alto de la pantalla */
+        position: relative;  /* Permite posicionar elementos dentro del contenedor */
     }
-    .content{
-        position: relative;
-        z-index: 1;
-        color: rgb(253, 232, 222);
-        text-align: center;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.432);
+    .content{ /* Estilo para el contenido que va sobre la imagen */
+        position: relative;  /* Hace que el contenido sea posicionado en relación al contenedor */
+        z-index: 1; /* Coloca el contenido por encima de la imagen de fondo */
+        color: rgb(253, 232, 222);  /* Establece el color del texto */
+        text-align: center; /* Centra el texto dentro del contenedor */
+        padding: 20px; /* Agrega espacio alrededor del contenido */
+        background-color: rgba(0, 0, 0, 0.432); /* Agrega un fondo semi-transparente oscuro */
         
     }
-    h1{
-        font-size: 48px;
+    h1{  /* Estilo para los títulos de la página */
+        font-size: 48px; /* Establece el tamaño del texto del título a 48 píxeles */
     }
     p{
-        font-size: 24;
+        font-size: 24; /* Establece el tamaño del texto del párrafo a 24 píxeles */
     }
-    .imgg3{
-        background: url('marmol\ morado.jpeg') no-repeat center center fixed;
-        background-size: cover;
-        height: 500vh;
-        position: relative;
+    .imgg3{ /* Estilo para la tercera sección con imagen de fondo */
+        background: url('marmol\ morado.jpeg') no-repeat center center fixed;  /* Agrega una imagen de fondo llamada "marmol morado.jpeg" */
+        background-size: cover;  /* Hace que la imagen cubra todo el contenedor */
+        height: 500vh;  /* Establece la altura del contenedor al 500% del alto de la pantalla */
+        position: relative; ; /* Permite posicionar el contenido de forma relativa */
     }
-    .content{
-        position: relative;
-        z-index: 1;
-        color: rgb(253, 232, 222);
-        text-align: center;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.432);
+    .content{ /* Estilo repetido para el contenido */
+        position: relative;  /* El contenido es posicionado en relación al contenedor */
+        z-index: 1; /* Coloca el contenido encima de la imagen */
+        color: rgb(253, 232, 222); /* Color del texto */
+        text-align: center;  /* Centra el texto */
+        padding: 20px; /* Espaciado alrededor del texto */
+        background-color: rgba(0, 0, 0, 0.432);  /* Fondo oscuro semi-transparente */
         
     }
-    h1{
-        font-size: 48px;
+    h1{ /* Estilo para los títulos principales */
+        font-size: 48px; /* Define el tamaño del texto del título */
     }
     p{
-        font-size: 24;
+        font-size: 24; /* Define el tamaño del texto del párrafo */
+    } 
+    .imgg4{ /* Estilo para la cuarta sección con imagen de fondo */
+        background: url('hondas.jpeg') no-repeat center center fixed;  /* Coloca una imagen de fondo llamada "hondas.jpeg" sin repetirse, centrada y fija */
+        background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+        height: 1000vh;  /* Hace que la sección tenga una altura de 1000 veces el alto de la pantalla */
+        position: relative;  /* Permite posicionar el contenido dentro del contenedor */
     }
-    .imgg4{
-        background: url('hondas.jpeg') no-repeat center center fixed;
-        background-size: cover;
-        height: 1000vh;
-        position: relative;
-    }
-    .content{
-        position: relative;
-        z-index: 1;
-        color: rgb(253, 232, 222);
-        text-align: center;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.432);
+    .content{ /* Estilo para el contenido que va sobre la imagen */
+        position: relative; /* Coloca el contenido en posición relativa */
+        z-index: 1; /* Asegura que el contenido esté por encima de la imagen */
+        color: rgb(253, 232, 222); ; /* Define el color del texto */
+        text-align: center; /* Centra el texto horizontalmente */
+        padding: 20px;  /* Agrega espacio alrededor del texto */
+        background-color: rgba(0, 0, 0, 0.432); /* Agrega un fondo oscuro semi-transparente */
         
     }
-    h1{
-        font-size: 48px;
+    h1{ /* Estilo repetido para los títulos */
+        font-size: 48px;  /* Tamaño del texto del título */
     }
-    p{
-        font-size: 24;
+    p{ /* Estilo repetido para los párrafos */
+        font-size: 24; ; /* Tamaño del texto del párrafo */
     }
-    
+    /* #pag - Estilo para un título específico */
     #pag{ /*poner tipo de letra a un titulo*/
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 30px;
-        font-weight: bold;
-        color:#d58cf7
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define la familia tipográfica del texto */
+        font-size: 30px; /* Establece el tamaño del texto del título */
+        font-weight: bold; /* Hace que el texto del título esté en negritas */
+        color:#d58cf7;  /* Cambia el color del texto a un tono violeta */
     }
-    .logoo{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        color:#fbfbfc
+    /* .logoo - Estilo para un texto que funciona como logo */
+    .logoo{ /* Estilos del texto del logo */
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define la familia tipográfica del logo */
+        font-size: 20px;  /* Define el tamaño del texto del logo */
+        font-weight: bold; /* Aplica negritas al texto del logo */
+        color:#fbfbfc /* Establece el color del texto a un tono casi blanco */
     }
-    
-    .conte{
-        display: flex;
-        align-items: center;
+    /* .conte - Contenedor flexible para alinear elementos horizontalmente */
+    .conte{ /* Contenedor flexible para acomodar contenido */
+        display: flex; /* Utiliza flexbox para colocar elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
     }
-    .imagen{
-        margin-right: 200px;
-        width: 150px;
+    /* .imagen - Estilo para la imagen */
+    .imagen{ /* Ajustes específicos para la imagen */
+        margin-right: 200px; /* Agrega un margen a la derecha de 200px */
+        width: 150px;  /* Establece el ancho de la imagen a 150px */
     }
-    .texto{
-        max-width: 200px;
+    /* .texto - Estilo para el texto junto a la imagen */
+    .texto{ /* Ajuste del bloque de texto */
+        max-width: 200px; /* Limita el ancho máximo del texto a 200px */
     }
     
 body {
