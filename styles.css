@@ -325,10 +325,10 @@ body {
 
 .bar {
     height: 20px; /* Define la altura de cada barra de resultados */
-    background-color: #4caf50; /* Usa un color verde para representar los votos */
+    background-color: #cf90ec; /* Usa un color verde para representar los votos */
     text-align: right; /* Alinea el texto de porcentaje dentro de la barra a la derecha */
     padding-right: 5px; /* Agrega un pequeño espacio a la derecha dentro de la barra para el texto */
-    color: white; /* Define el color del texto dentro de la barra como blanco para mejor visibilidad */
+    color: rgb(252, 236, 218); /* Define el color del texto dentro de la barra como blanco para mejor visibilidad */
     line-height: 20px; /* Asegura que el texto dentro de la barra esté centrado verticalmente */
     border-radius: 5px; /* Aplica bordes redondeados a cada barra */
 }
