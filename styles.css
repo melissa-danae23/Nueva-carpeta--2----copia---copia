@@ -1,3 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100w;
+    height: 100vh;
+    background-color: #6a0dad;/*color de fonfo*/
+    display: flex;
+    justify-content: center; /*centrea horizantemente*/
+    align-items: center;/*centra verticalmente*/
+}
+
 body{ 
     margin: 200px;  /* Agrega un margen de 200 píxeles alrededor del cuerpo de la página */
 }
